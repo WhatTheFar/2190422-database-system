@@ -18,7 +18,7 @@ services:
     ports:
       - 3306:3306
     environment:
-      MYSQL_DATABASE:
-      MYSQL_USER:
-      MYSQL_PASSWORD:
-      MYSQL_ROOT_PASSWORD:
+      MYSQL_DATABASE: REGISTRATION_DB
+      MYSQL_USER: far
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
